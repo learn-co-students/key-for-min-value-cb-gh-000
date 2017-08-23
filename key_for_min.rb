@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   return nil if name_hash.empty?
 
-  temp_value = 999
+  temp_value = 0
   name_hash.collect { |key, value|
-    temp_value = value if value < temp_value
+    temp_value = value if value < temp_value || temp_value == 0 
   }
   name_hash.index(temp_value)
 end
