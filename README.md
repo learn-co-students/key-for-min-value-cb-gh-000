@@ -5,7 +5,7 @@
 1. Build a method that accepts an argument of a hash and iterates over it.
 
 ## Instructions 
-
+n
 1. Fork and clone this lab
 2. Build a method `key_for_min_value` that accepts an argument of a hash. This method should iterate over the hash and return the *key* (not the value!) that points to the smallest value of the set. If the method is called and passed an argument of an empty hash, it should return `nil`. 
 
